@@ -16,8 +16,8 @@ API_URL = "https://smart-city-api:8000/readings"
 
 API_KEY = os.environ["SENSOR_API_KEY"]
 
-MAX_READINGS = 10
-INTERVAL_SECONDS = 1
+MAX_READINGS = 1000
+INTERVAL_SECONDS = 0.1
 
 ssl_context = ssl.create_default_context(
     cafile=str(CERT_FILE)
