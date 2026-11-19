@@ -1,0 +1,24 @@
+# Secrets
+.env
+.env.*
+!.env.example
+
+# TLS private keys
+*.key
+*.pem
+security/certs/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Local data and logs
+*.log
+data/
+project-screenshots/
+
+# Editor files
+.vscode/
+.idea/
